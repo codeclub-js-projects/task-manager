@@ -1,0 +1,27 @@
+#add-task-form {
+    border: 1px solid silver;
+    border-radius: 15px;
+    padding: 20px;
+    width: 75%;
+    margin: 20px auto;
+}
+
+#add-task-box {
+    padding: 5px;
+    width: 85%;
+    margin-top: 5px;
+}
+
+#add-task-btn {
+    padding: 3px;
+    width: 50%;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+#error {
+    color: red;
+    font-style: italic;
+    font-size: 11pt;
+    margin-top: 5px;    
+}

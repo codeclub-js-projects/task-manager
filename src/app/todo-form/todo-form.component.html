@@ -1,0 +1,15 @@
+<div id="add-task-form">
+    <input 
+        id="add-task-box" 
+        type="text" 
+        placeholder="Введите описание задачи"
+        [(ngModel)]="title"
+        (keydown.enter)="addTask()">
+    <br>
+    <div *ngIf="error" id="error">Вы не ввели описание задачи!</div>
+    <button 
+        id="add-task-btn"
+        (click)="addTask()">
+        Добавить задачу
+    </button>
+</div>

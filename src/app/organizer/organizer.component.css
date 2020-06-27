@@ -1,0 +1,12 @@
+#table1 {
+    width: 100%;
+    margin-top: 15px;
+}
+.done {
+    text-decoration: line-through;
+}
+
+#search-box {
+    width: 75%;
+    padding: 5px;
+}

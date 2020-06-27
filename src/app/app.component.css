@@ -1,0 +1,11 @@
+.container {
+    text-align: center;
+    font: 12pt "Georgia";
+    border: 1px solid silver;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 50px auto;
+    width: 60%;
+    /*height: 400px;*/
+    box-shadow: 0 0 gray, 0 0 40px lightgray;
+}
